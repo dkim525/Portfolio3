@@ -1,0 +1,126 @@
+.background {
+    background-color:rgb(85, 86, 88);
+}
+.top {
+    background-color:#bbb2e9;
+    border-radius: 10px;
+    color:rgb(255, 252, 248);
+}
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.homepage{
+    text-decoration: none;
+    color: rgb(255, 252, 248);
+    font-size: 25px;
+}
+.resume{
+    text-decoration: none;
+    color: rgb(255, 252, 248);
+    font-size: 25px;
+}
+.research{
+    text-decoration: none;
+    color: rgb(255, 252, 248);
+    font-size: 25px;
+}
+.aboutme{
+    font-size: 25px;
+    color: rgb(255, 252, 248)
+}
+.infodetails{
+    display: flex;
+    justify-content:space-between;
+}
+.abouttext {
+    background-color:#bbb2e9;
+    border-radius: 10px;
+    color:rgb(255, 252, 248);
+    font-size: 20px;
+}
+#profilephoto  {
+    width: 200px;
+    height: 250px;
+    border: 4px solid var(--banner-font);
+    border-radius: 10000px;
+    display: flex;
+    justify-content: center;
+}
+.skills {
+    font-size: 25px;
+    color: rgb(255, 252, 248);
+}
+.skillcontainer {
+    display: flex;
+    justify-content:center;
+    background-color:#bbb2e9;
+    border-radius: 10px;
+    color:rgb(255, 252, 248);
+    font-size: 20px;
+}
+.projects{
+    font-size: 25px;
+    color: rgb(255, 252, 248)
+}
+.projectcontianer{
+    display: flex;
+    justify-content:center;
+}
+#cards {
+    width: 400px;
+    height: 300px;
+    border: 4px solid var(--banner-font);
+    border-radius: 20px;
+    cursor:pointer;
+    padding: 6px;
+}
+.footercontainer {
+    display: flex;
+    justify-content:center;
+    background-color:#bbb2e9;
+    border-radius: 10px;
+    color:rgb(255, 252, 248);
+    font-size: 20px;
+    padding: 5px;
+}
+.email{
+    padding: 10px;
+    cursor:pointer;
+}
+.github{
+    color:orange;
+    padding: 10px;
+    cursor:pointer;
+}
+.linkedin {
+    color:rgb(68, 68, 172);
+    padding: 10px;
+    cursor:pointer;
+}
+.twitter{
+    color: cyan;
+    padding: 10px;
+    cursor:pointer;
+}
+#resume {
+    width: 450px;
+    height: 600px;
+    border: 4px solid var(--banner-font);
+    border-radius: 20px;
+    cursor:pointer;
+    padding: 6px;
+}
+#research {
+    width: 450px;
+    height: 600px;
+    border: 4px solid var(--banner-font);
+    border-radius: 20px;
+    cursor:pointer;
+    padding: 6px;
+}

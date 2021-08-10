@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davis Kim</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body class="background">
+    <div class="top">
+      <header class="header">
+        <h1 class="h1">Davis Kim</h1>
+     </header>
+
+      <nav class="navbar"> 
+        <a class="homepage" href="index.html">Home</a>
+        <a class="resume" href="resume.html">Resume</a>
+        <a class="research" href="research.html">Research</a>
+      </nav>
+    </div>
+    <main>
+        <!--This is the about me section-->
+        <section>
+        <h2 class="aboutme">About Me</h2>
+        
+        <div class="infodetails">
+            <img
+              src="./assets/files/Linkedin.png"
+              alt="Photo of Davis Kim"
+              id="profilephoto"
+            />
+            <article class="abouttext">
+              <p>
+                My name is Davis Kim, and I built this site to provide insight
+                of my professional and academic offerings. I recently graduated
+                from the University of Wisconsin-Madison majoring in Economics, 
+                currently I work at PFF (Pro Football Focus) as a data collection
+                analyst. I also, am enrolled in a professional development program
+                at the University of Minnesota CCAPS in full stack development course
+                that utilizes front-end and back-end technologies. 
+              </p>
+            </article> 
+        </div> 
+        </section>
+
+        <!--This is the skills section-->
+        <section>
+        <h2 class="skills">Skills</h2>
+          <div class="skillcontainer">
+            <p>CSS • Excel • Express • HTML • JavaScript • MongoDB • MySQL • Node • Python • R • React • SQL • STATA</p>
+          </div>
+        </section>
+        
+        <!--This is the projects section-->
+        <section>
+        <h2 class="projects">Projects</h2>
+          <div class="projectcontainer">
+            <card class="project1" onclick="openInNewTab('https://nicholasheld.github.io/breweries-team4/');">
+              <img
+              src="assets/files/brewery.png"
+              alt="Photo of project 1"
+              id="cards"
+              />
+            </card>
+            <card class="project1" onclick="openInNewTab('https://quiet-beyond-45478.herokuapp.com/');">
+              <img
+              src="assets/files/courtfinder.png"
+              alt="Photo of project 2"
+              id="cards"
+              />
+            </card>
+            <card class="project1" onclick="openInNewTab('https://secret-savannah-75724.herokuapp.com/');">
+              <img
+              src="assets/files/awesomecrap.png"
+              alt="Photo of project 3"
+              id="cards"
+              />
+            </card>
+          </div>
+        </section>
+    </main>
+
+    <footer>
+      <section>
+          <div class="footercontainer">
+            <h2> Created by Davis Kim</h2>
+            <a href="mailto:dkim525@wisc.edu"></a><i class="fa fa-envelope fa-3x email" aria-hidden="true"></i></a>
+            <i class="fa fa-github github fa-3x" aria-hidden="true" onclick="openInNewTab('https://github.com/dkim525');"></i>
+            <i class="fa fa-linkedin-square linkedin fa-3x" aria-hidden="true" onclick="openInNewTab('https://www.linkedin.com/in/davis-kim-b5824a167/');"></i>
+            <i class="fa fa-twitter-square twitter fa-3x" aria-hidden="true" onclick="openInNewTab('https://twitter.com/davirrr___');"></i>
+          </div>
+        </section>
+    </footer>
+   
+   
+    <script src="assets/js/script.js"></script>
+  </body>
+
+
+
+</html>
