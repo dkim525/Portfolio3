@@ -81,17 +81,19 @@
     padding: 6px;
 }
 .footercontainer {
-    display: flex;
-    justify-content:center;
     background-color:#bbb2e9;
     border-radius: 10px;
     color:rgb(255, 252, 248);
     font-size: 20px;
     padding: 5px;
 }
+.createdby {
+    padding-right: 10px;
+}
 .email{
-    padding: 10px;
     cursor:pointer;
+    text-decoration: none;
+    color:cornflowerblue;
 }
 .github{
     color:orange;
@@ -123,4 +125,16 @@
     border-radius: 20px;
     cursor:pointer;
     padding: 6px;
+}
+.flex-container {
+    display: flex;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
 }
